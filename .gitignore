@@ -1,0 +1,25 @@
+# Dependencies
+venv/
+node_modules/
+__pycache__/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database and data
+*.db
+*.sqlite3
+jobaggregator.db
+
+# Debug and scraped data in root
+/*.html
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Saved cookies and account details
+*.pkl
